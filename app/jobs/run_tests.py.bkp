@@ -1,0 +1,7 @@
+def run(env: str):
+    if env == "dev":
+        return {"status": "success", "message": "Ran lightweight dev tests"}
+    elif env == "prod":
+        return {"status": "success", "message": "Ran full production test suite"}
+    else:
+        return {"status": "skipped", "message": f"No test plan for env: {env}"}

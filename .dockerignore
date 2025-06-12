@@ -1,0 +1,27 @@
+# Ignore Python cache and compiled files
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+.venv/
+env/
+venv/
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+
+# Git
+.git/
+.gitignore
+
+# IDE settings
+.vscode/
+.idea/
+
+# dotenv files
+.env
